@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "build",
+        "strict": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "noImplicitAny": false,
+        "noImplicitThis": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true
+    },
+    "exclude": [
+        "node_modules",
+        "tests"
+    ]
+}

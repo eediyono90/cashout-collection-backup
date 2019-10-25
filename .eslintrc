@@ -1,0 +1,40 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "extends": [
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "rules": {
+        "no-console": "error",
+        "no-empty": "error",
+        "no-irregular-whitespace": "warn",
+        "no-unreachable": "error",
+        "curly": ["error", "multi-line"],
+        "eqeqeq": "error",
+        "no-alert": "error",
+        "no-else-return": "error",
+        "no-empty-function": "error",
+        "no-global-assign": "error",
+        "no-implicit-coercion": "error",
+        "no-implicit-globals": "error",
+        "no-implied-eval": "error",
+        "no-invalid-this": "warn",
+        "no-labels": "error",
+        "no-lone-blocks": "error",
+        "no-multi-spaces": "warn",
+        "global-require": "error",
+        "no-mixed-requires": "error",
+        "no-eval": "error",
+        "no-const-assign": "error",
+        "prefer-const": "warn",
+        "indent": ["warn", 4],
+        "no-unexpected-multiline": "error",
+        "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+        "keyword-spacing": ["error", {"before": true} ],
+        "camelcase": ["off", {"properties": "never", "ignoreDestructuring": true, "allow": ["error_code"]}],
+        "@typescript-eslint/camelcase": ["off", {"properties": "never"}]
+    }
+}
